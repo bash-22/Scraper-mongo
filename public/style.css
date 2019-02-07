@@ -1,0 +1,69 @@
+body { background-color: #f1f2f3;
+        background-image: url('http://wallpapertop.net/wp-content/uploads/2018/04/ESPN%20Computer%20Wallpaper.jpg');
+}
+      img {
+
+        margin-top: -8px;
+        height: 150px;
+        width: 100%;
+      }
+      h2{
+         font-family: fantasy;
+         color: yellowgreen;
+         font-style: oblique;
+         outline-color: black;
+      }
+      #wrapper {
+        width: 960px;
+        margin-left: 10px;
+        margin-right: auto;
+        /*padding-top: 5%;*/
+      }
+      #articles {
+        background-color: #ffffff;
+        border: 1px solid black;
+        display: inline-block;
+        overflow: auto;
+        margin-top: 20px;
+        margin-left: 10px ;
+        width: 60%;
+        height: 550px;
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+      }
+       li :hover{
+          background-color: aqua;
+          border: 2px solid black;
+      }
+
+      .eachArticle {
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .titleDiv {
+
+        color: #6c6d6f;
+      }
+      ul {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #ffffff;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: rgb(207, 199, 252);
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
